@@ -1,36 +1,67 @@
 body {
-    height: 100%;
-    width: 100%;
-  }
-  a {
-    color: black;
-    padding: 2%;
-  }
-  a:hover {
-    color: darkred;
-  }
-  .categorie {
-    margin: auto;
-    padding: 2%;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: black;
+  padding: 2%;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.categorie {
+  margin: auto;
+  padding: 2%;
+}
+
+.meteo {
+  position: absolute;
+  right: 0;
+  /* top: 0; */
+}
+
+.weatherwidget-io {
+  width: 400px;
+}
+
+.container-fluid {
+  width: 90%;
+  display: flex;
+}
+
+.container {
+  height: 100%;
+  width: 50%;
+}
+
+
+
+/*Media Queries CSS Screen Size*/
+/* HD */
+@media only screen and (min-width : 1361px) and (max-width : 1920px) {
   .meteo {
-    position: absolute;
-    right: 0;
     top: 0;
   }
+}
+
+/* SD */
+@media only screen and (min-width : 1300px) and (max-width : 1360px) {
+  .meteo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
   .weatherwidget-io {
-    width: 400px;
-  }
-  .container-fluid {
     width: 90%;
-    display: flex;
   }
-  .container {
-    height: 100%;
-    width: 50%;
+}
+
+/* PHONE */
+@media only screen and (min-width : 200px) and (max-width : 640px) {
+  .meteo {
+    display: none;
   }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
-.weatherwidget-io {
-  display: none;
- }
-} 
+}
