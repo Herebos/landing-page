@@ -8,10 +8,10 @@ Tout est statique, clone repo to start working on it
 
 ### Contenue
 
-Le projet contient du Bootstrap.
-Le CSS contient des media queries pour HD, SD et Phone.
-Animation 100% CSS.
-Fichier JS pour les Popovers et le widget météo.
+* Le projet contient du Bootstrap.
+* Le CSS contient des media queries pour HD, SD et Phone.
+* Animation 100% CSS.
+* Fichier JS pour les Popovers et le widget météo.
 
 ## Mise en Ligne
 
