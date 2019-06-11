@@ -35,6 +35,8 @@ a:hover i {
 
 .weatherwidget-io {
   width: 400px;
+  border: 1px solid grey;
+  border-radius: 25px;
 }
 
 .container-fluid {
