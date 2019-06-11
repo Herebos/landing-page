@@ -8,7 +8,7 @@ Tout est statique, clone repo to start working on it
 
 ### Contenue
 
-Le projet contient <script> et <link> Bootstrap.
+Le projet contient du Bootstrap.
 Le CSS contient des media queries pour HD, SD et Phone.
 Animation 100% CSS.
 Fichier JS pour les Popovers et le widget météo.
@@ -26,3 +26,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This projet is gratos.
+
+## Autres
+* [Widget](https://weatherwidget.io/)
+
