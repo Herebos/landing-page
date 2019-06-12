@@ -21,7 +21,7 @@ $j(document).ready(function () {
 
 /////// GET Method
 /////// Chuck Norris Fact
-const app = document.getElementById('quote');
+const quote = document.getElementById('quote');
 
 
 var request = new XMLHttpRequest();
@@ -31,8 +31,8 @@ request.onload = function () {
   //
   var data = JSON.parse(this.response);
   if (request.status >= 200 && request.status < 400) {
-    console.log('Ready');
-    app.innerHTML = data.value;
+    console.log('Ready CN');
+    quote.innerHTML = data.value;
   } else {
     console.log('Error fetching the quote');
   }
