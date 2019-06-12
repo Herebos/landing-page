@@ -53,6 +53,13 @@ a:hover i {
 
 
 /*Media Queries CSS Screen Size*/
+/* Ultra HD */
+@media only screen and (min-width : 2560px) {
+  .weatherwidget-io {
+    width: 550px;
+  }
+}
+
 /* HD */
 @media only screen and (min-width : 1441px) and (max-width : 1920px) {
   .meteo {
