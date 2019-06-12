@@ -12,6 +12,7 @@ Tout est statique, clone repo to start working on it
 * Le CSS contient des media queries pour HD, SD et Phone.
 * Animation 100% CSS.
 * Fichier JS pour les Popovers et le widget météo.
+* UPDATE : Chuck Norris Fact with awesome API
 
 ## Mise en Ligne
 

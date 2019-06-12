@@ -46,6 +46,9 @@ a:hover i {
   width: 50%;
 }
 
+#quote {
+  margin-top: -2%;
+}
 
 
 /*Media Queries CSS Screen Size*/
