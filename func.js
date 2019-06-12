@@ -34,7 +34,7 @@ request.onload = function () {
     console.log('Ready CN');
     quote.innerHTML = data.value;
   } else {
-    console.log('Error fetching the quote');
+    console.log('Error fetching the quote. Status code ' + request.status);
   }
 }
 
