@@ -6,7 +6,7 @@ Projet Page de Garde, pour remplacer la page d'accueil navigateur
 
 Tout est statique, clone repo to start working on it
 
-### Contenue
+### Contenu
 
 * Le projet contient du Bootstrap.
 * Le CSS contient des media queries pour HD, SD et Phone.
