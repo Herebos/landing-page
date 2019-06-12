@@ -1,4 +1,4 @@
-// $j optional alias to jQuery noConflict() <- call the Jquery without conflict
+// $j optional alias to jQuery noConflict() <- call the Jquery without conflict for Popover
 let $j = jQuery.noConflict();
 
 $j(document).ready(function () {
@@ -8,11 +8,7 @@ $j(document).ready(function () {
   });
 });
 
-// $(function () {
-//     $('[data-toggle="popover"]').popover({ triger : 'hover'})
-//   });
-
-///////////////////////////////////////////////////////////////
+/////// Weather Widget 
 ! function (d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (!d.getElementById(id)) {
@@ -23,13 +19,8 @@ $j(document).ready(function () {
   }
 }(document, 'script', 'weatherwidget-io-js');
 
-/*
- * 
- * GET function
- * 
- * */
-
- /////// Chuck Norris Fact
+/////// GET Method
+/////// Chuck Norris Fact
 const app = document.getElementById('quote');
 
 
