@@ -27,8 +27,6 @@ const quote = document.getElementById('quote');
 var request = new XMLHttpRequest();
 request.open('GET', 'https://api.chucknorris.io/jokes/random?category=dev', true);
 request.onload = function () {
-
-  //
   var data = JSON.parse(this.response);
   if (request.status >= 200 && request.status < 400) {
     console.log('Ready CN');
