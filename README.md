@@ -1,6 +1,7 @@
 # Page de Garde
 
 Projet Page de Garde, pour remplacer la page d'accueil navigateur
+* Accessible [ici](https://herebos.github.io)
 
 ## Getting Started
 
