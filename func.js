@@ -2,7 +2,7 @@
 let $j = jQuery.noConflict();
 
 $j(document).ready(function () {
-  console.log('pret');
+  console.log('Ready Popover');
   $j('[data-toggle="popover"]').popover({
     trigger: 'hover'
   });
