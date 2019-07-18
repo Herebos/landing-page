@@ -67,12 +67,10 @@ a:hover i {
 /* SD */
 @media only screen and (min-width : 768px) and (max-width : 1440px) {
   .meteo {
-    position: fixed;
-    /*
-    position: initial
-    Voir conflit ? */
+    /*position: fixed;
     bottom: 0;
-    width: 100%;
+    right: 0;*/
+    width: 25%;
   }
 
   .weatherwidget-io {
